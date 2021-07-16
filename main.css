@@ -35,12 +35,6 @@ h3 {
       grid-auto-rows: minmax(177px, auto);
   }
 }
-@media (min-width: 1024px) {
-  #galeria {
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-      grid-auto-rows: minmax(391px, auto);
-  }
-}
 
 #galeria img {
   width: 100%;
@@ -52,20 +46,14 @@ h3 {
 
 #img-activa {
   border-radius: 5px;
-  width: 340px;
-  height: 604;
+  width: 360px;
+  height: 640;
 }
 
 @media (max-width: 768px) {
   #img-activa {
     width: 230px;
     height: 408px;
-  }
-}
-@media (min-width: 1024px) {
-  #img-activa {
-    width: 360px;
-    height: 400px;
   }
 }
 
@@ -82,13 +70,12 @@ h3 {
   align-items: center;
 }
 
-
 #contenedor-interno {
   border: 2px white solid;
   padding: 2px;
   background: transparent;
-  max-width: 350px;
-  min-height: 604px;
+  max-width: 370px;
+  min-height: 650px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -97,13 +84,7 @@ h3 {
 @media (max-width: 768px) {
   #contenedor-interno {
     max-width: 240px;
-    min-height: 408px;
-  }
-}
-@media (min-width: 1024px) {
-  #contenedor-interno {
-    max-width: 370px;
-    min-height: 400px;
+    min-height: 418px;
   }
 }
 
